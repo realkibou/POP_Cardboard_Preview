@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <meta name="viewport" content="width=device-wiPdth, initial-scale=1.0" />
+  <title>MR.CARDBOARD - Template Preview</title>
+</head>
+
+<body>
+  <div class="topcontainer" id="topcontainer">
+    <div id="c0" class="container-item">MR.CARDBOARD<br>Template Preview</div>
+      <div id="c1" class="container-item">1. Upload Outside Template (.jpg)<br><input type="file" id="loadCustomTextureFileOutside" accept="image/jpeg"></div>
+      <div id="c2" class="container-item">2. Upload Inside Template (.jpg)<br><input type="file" id="loadCustomTextureFileInside" accept="image/jpeg"></div>
+      <div id="c3" class="container-item">3. Click to update<br><button type=" button" id="updateTextures">Update 3d model</button></div>
+  </div>
+  <div id="sourceImageDiv" class="hidden"></div>
+  <canvas id="canvas"></canvas>
+  <img src="./MRC_URL_white.svg" class="watermark">
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "cardboard",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.4.3"
+  },
+  "dependencies": {
+    "three": "^0.130.1"
+  },
+  "directories.bin": "./default"
+}
