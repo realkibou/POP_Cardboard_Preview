@@ -257,7 +257,7 @@ const digitalslices = [
     [1339, 1194, 410, 255, "sourceImageInside"], //map_Kd textures/TopInsideFit.jpg
     [677, 800, 418, 103, "sourceImageInside"], //map_Kd textures/ViewerLugInside.jpg
     [27, 824, 405, 251, "sourceImageInside"] //map_Kd textures/LensInsideFit.jpg    
-  ], [ //CBEnvelop
+  ], [ //CBEnvelope
     [136, 47, 694, 231, "sourceImageOutside"], //map_Kd textures/EnvelopeOutsideFlap.jpg
     [-35, -204, 0, 0, "sourceImageInside"], //
     [-35, -204, 0, 0, "sourceImageInside"], //map_Kd textures/texture.jpg
@@ -265,8 +265,8 @@ const digitalslices = [
     [136, 323, 694, 402, "sourceImageOutside"], //map_Kd textures/EnvelopeOutsideFront.jpg
     [136, 766, 694, 399, "sourceImageOutside"], //map_Kd textures/EnvelopeOutsideBack.jpg
     [136, 277, 694, 46, "sourceImageOutside"], //map_Kd textures/EnvelopeOutsideTop.jpg
+    [830, 769, 39, 396, "sourceImageOutside"], //map_Kd textures/EnvelopeOutsideLeft.jpg
     [98, 769, 39, 396, "sourceImageOutside"], //map_Kd textures/EnvelopeOutsideRight.jpg
-    [830, 769, 39, 396, "sourceImageOutside"] //map_Kd textures/EnvelopeOutsideLeft.jpg
   ], [ //CBEnvelopeOpened
     [1347, 769, 39, 396, "sourceImageInside"], //map_Kd textures/EnvelopeInsideLeft.jpg
     [830, 769, 39, 396, "sourceImageOutside"], //map_Kd textures/EnvelopeOutsideLeft.jpg
@@ -327,7 +327,7 @@ const offsetslices = [
     [1356, 1398, 410, 255, "sourceImageInside"],
     [694, 1004, 418, 103, "sourceImageInside"],
     [44, 1028, 405, 251, "sourceImageInside"]
-  ], [ //CBEnvelop
+  ], [ //CBEnvelope
     [171, 251, 694, 231, "sourceImageOutside"],
     [0, 0, 0, 0, "sourceImageInside"],
     [0, 0, 0, 0, "sourceImageInside"],
@@ -335,8 +335,8 @@ const offsetslices = [
     [171, 527, 694, 402, "sourceImageOutside"],
     [171, 970, 694, 399, "sourceImageOutside"],
     [171, 481, 694, 46, "sourceImageOutside"],
+    [865, 973, 39, 396, "sourceImageOutside"],
     [133, 973, 39, 396, "sourceImageOutside"],
-    [865, 973, 39, 396, "sourceImageOutside"]
   ], [ //CBEnvelopeOpened
     [1364, 973, 39, 396, "sourceImageInside"],
     [865, 973, 39, 396, "sourceImageOutside"],
